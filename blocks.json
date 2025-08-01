@@ -1,12 +1,14 @@
 [
   {
+    "id": "project-setup-nextjs-shadcn",
+    "prompt": "Set up a project with Next.js, Tailwind CSS, and ShadCN",
+    "prompt_file": "blocks/project-setup-nextjs-shadcn/prompt.md",
+    "tags": ["setup", "nextjs", "shadcn", "tailwind"]
+  },
+  {
     "id": "newsletter-sendgrid",
-    "prompt": "Create a newsletter signup form that sends emails to a SendGrid contact list",
-    "env": ["SENDGRID_API_KEY", "SENDGRID_LIST_ID"],
-    "files": {
-      "component.tsx": "blocks/newsletter-sendgrid/component.tsx",
-      "api.ts": "blocks/newsletter-sendgrid/api.ts",
-      "config.json": "blocks/newsletter-sendgrid/config.json"
-    }
+    "prompt": "Create a newsletter signup form that integrates with SendGrid using ShadCN UI",
+    "prompt_file": "blocks/newsletter-sendgrid/prompt.md",
+    "tags": ["form", "newsletter", "sendgrid", "shadcn", "react"]
   }
 ]

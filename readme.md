@@ -1,21 +1,30 @@
 # GrowthBlocks
 
-Prompt-based smart components for AI builders like Lovable, Cursor, and Replit.
+> Prompt-based building blocks for AI-native development.
 
----
+This repository contains reusable AI-ready blocks that:
+- Are activated by a single natural language prompt
+- Generate full UI + backend logic
+- Work across environments like Cursor, Replit, Lovable
 
-## 🔧 How It Works
+## 📦 Blocks
 
-Each component block is made of:
+Each block lives in `blocks/[id]/prompt.md` and includes:
+- What the AI assistant should generate
+- Code structure
+- ENV requirements
+- Setup validation logic
 
-- A natural language prompt
-- A list of required environment variables
-- A UI component (`component.tsx`)
-- Optional backend logic (`api.ts`)
-- A configuration file (`config.json`)
-- Entry in the central index (`blocks.json`)
+## Examples
 
----
+### 🔧 Project Setup
+Prompt:  
+`Set up a project with Next.js, Tailwind CSS, and ShadCN`
 
-## 📁 File Structure
+➡️ Generates a full working environment if none exists.
 
+### 📨 Newsletter + SendGrid
+Prompt:  
+`Create a newsletter signup form that integrates with SendGrid using ShadCN UI`
+
+➡️ Creates UI + backend API route ready to deploy.
